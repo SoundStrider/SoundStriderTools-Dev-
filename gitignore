@@ -1,0 +1,68 @@
+# ---------------------------------------------------------------------------
+# Unreal Engine build output
+# ---------------------------------------------------------------------------
+# Compiled modules and UHT-generated code. Regenerated on every build, and
+# shipping them is what causes "works on my machine" module mismatches.
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+Build/
+
+# UAT's throwaway project from a Package Plugin run. Nests a full copy of the
+# plugin inside itself if it ever gets committed.
+HostProject/
+
+# ---------------------------------------------------------------------------
+# Generated project files
+# ---------------------------------------------------------------------------
+# Produced by "Generate Visual Studio project files" from the .uproject.
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# ---------------------------------------------------------------------------
+# IDE
+# ---------------------------------------------------------------------------
+.vs/
+.vscode/
+.idea/
+*.DotSettings.user
+
+# ---------------------------------------------------------------------------
+# Packaging output
+# ---------------------------------------------------------------------------
+# Currently guarding against .zips
+*.zip
+dist/
+
+# ---------------------------------------------------------------------------
+# OS
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------------------------------------------------------------------------
+# Unreal content
+# ---------------------------------------------------------------------------
+# Autosaves and collections never ship.
+Content/Developers/
+Content/Collections/
+*.autosave
+*.tmp
+
+# ---------------------------------------------------------------------------
+# Crash and log output
+# ---------------------------------------------------------------------------
+*.log
+*.dmp
+Crashes/
