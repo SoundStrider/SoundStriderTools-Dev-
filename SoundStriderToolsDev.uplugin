@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1.0-beta",
+	"FriendlyName": "SoundStriderTools (Dev)",
+	"Description": "Custom game development tools for Unreal Engine - includes SST_IO scripting tools. Beta.",
+	"Category": "Gameplay",
+	"CreatedBy": "SoundStrider",
+	"CreatedByURL": "https://www.soundstrider.dev/",
+	"DocsURL": "https://github.com/SoundStrider/SoundStriderTools-Dev-",
+	"MarketplaceURL": "",
+	"SupportURL": "https://www.soundstrider.dev/about/contact",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "SoundStriderTools",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "SoundStriderToolsEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		}
+	]
+}
