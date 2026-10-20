@@ -7,6 +7,9 @@ Once SoundStriderTools - Dev - is out of Beta, a commercial license will be avai
 SoundStriderTools - Dev is a collection of Unreal Engine tools intended for designers to improve workflows and ease development struggles. 
 Currently, the only tool included in this package is the Scripting_IO tool (SST_IO) and its related features and editor tools
 
+>[!WARNING]
+>Currently the tools have only been tested in the UE 5.8 dev environment on the latest build. It should be functional from UE 5.5 onward (StructUtils/PropertyBag.h was a plugin before 5.5), but regression testing has not occured yet.
+
 # SST_IO
 
 ---
